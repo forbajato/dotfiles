@@ -1,0 +1,15 @@
+[ui]
+username = Thomas Hicks <paradox@pobox.com>
+ssh = ssh -C
+
+[extensions]
+color=
+graphlog=
+
+[alias]
+lga = glog --style=/home/tom/bin/mercurialStuff/map-cmdline.lg
+
+
+[reviewboard]
+server = alarm
+user = hg
