@@ -1,0 +1,27 @@
+[submodule "vim/bundle/vim-notes"]
+	path = vim/bundle/vim-notes
+	url = git@github.com:xolox/vim-notes.git
+[submodule "vim/bundle/MultipleSearch2"]
+	path = vim/bundle/MultipleSearch2
+	url = git@github.com:vim-scripts/MultipleSearch2.vim.git
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "vim/bundle/snipmate"]
+	path = vim/bundle/snipmate
+	url = git@github.com:msanders/snipmate.vim.git
+[submodule "vim/bundle/vim-misc"]
+	path = vim/bundle/vim-misc
+	url = git@github.com:xolox/vim-misc.git
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "vim/bundle/vim-lawrencium"]
+	path = vim/bundle/vim-lawrencium
+	url = git@github.com:ludovicchabant/vim-lawrencium.git
