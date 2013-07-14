@@ -1,0 +1,110 @@
+
+"Have command line completion <Tab> (for filenames, Help topics, option names)
+"first list the available options and complete the longest possible part
+"then have further <tab>s cycle through the possibilities
+set wildmode=list:longest,full 
+"Show the mode and the commands input
+set showmode
+set showcmd
+"Use the mouse everywhere
+set mouse=a
+"Highlight file based on syntax
+syntax on
+"Set tabstops to 3 spaces rather than default 5
+set tabstop=3
+set shiftwidth=3
+"Something about helping it be a good python ide
+set smarttab
+"Show matching braces, parentheses, etc. when writing code
+set showmatch
+"Search for strings as you enter them, like the find function in Firefox
+set incsearch
+"Set autoindent to allow next line to be indented the same as the prior line
+set autoindent
+"Don't highlight searches
+set nohls
+"enable filetype detection
+filetype on
+"Added lines for LaTeX Suite
+filetype plugin on
+set grepprg=grep\ -nH\ $*
+filetype indent on
+"My common typo corrections go here
+abbreviate teh the
+abbreviate cna can
+abbreviate adn and
+abbreviate sep **********
+"for CSS files have things in braces indented
+autocmd Filetype css set smartindent
+"for HTML files format text but if a long line has been created leave it alone
+autocmd Filetype html set formatoptions+=t1
+"Remap F6 to allow changing from one buffer to another when using split screen
+"F6 goes to the next buffer
+nnoremap <F6> <C-W>w
+"Remap F5 to allow changing from one buffer to another when using split screen
+"F5 goes to the previous buffer
+nnoremap <F5> <C-W>W
+"Remap ctrl-N and ctrl-P to cycle through files
+nnoremap <C-N> :next<CR>
+nnoremap <C-P> :prev<CR>
+"Have <F1> prompt for help topic rather than start at opening help screen
+"nnoremap <F1> :help<space>
+"vmap <F1> <C-C><F1>
+"omap <F1> <C-C><F1>
+"map! <F1> <C-C><F1>
+"Remap <F2> to insert date and time after the cursor
+nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>
+"remap <F3> to run file in python
+map <f3> :w\!python %<cr>
+"map <F7> :w<CR> :!aspell -x -d american %<CR><CR>:e<CR><CR>
+"map <F8> :set filetype=vo_base<CR>
+"map <F9> :set filetype=potwiki<CR>
+filetype plugin indent on
+set splitbelow
+"let potwiki_home="/mnt/vault/Documents/Wiki/HomePage"
+"Set up Bash IDE parameters
+"following will work with Bash Support plugin
+let g:BASH_AuthorName = 'Thomas C. Hicks'
+let g:BASH_Email = 'paradox@pobox.com'
+let g:BASH_Company = 'Anonamouse Productions'
+"Setting spell check as you type as per Linux Journal 2008, Sept.
+set spell
+set spell spelllang=en_us
+set spellfile=~/.vim/spellfile.add
+
+highlight clear SpellBad
+highlight SpellBad term=standout ctermfg=1
+highlight SpellBad term=underline cterm=underline
+highlight clear SpellCap
+highlight SpellCap term=underline cterm=underline
+highlight clear SpellRare
+highlight SpellRare term=underline cterm=underline
+highlight clear SpellLocal
+highlight SpellLocal term=underline cterm=underline
+
+colorscheme desert
+
+"Set up omnicomplete to work with Python
+autocmd Filetype python set omnifunc=pythoncomplete#Complete
+
+"Get the Tasklist window
+map T :TaskList<CR>
+"Get the tags window
+map P :TlistToggle<CR>
+
+"To use MiniBufExplorer
+"Apparently useful for IDE type features in VIM
+"I disabled the below after a trial because I don't use it much
+"let g:miniBufExplMapWindowNavVim = 1
+"let g:miniBufExplMapWindowNavArrows = 1
+"let g:miniBufExplMapCTabSwitchBufs = 1
+"let g:miniBufExplModSelTarget = 1
+
+"Add Pathogen
+call pathogen#infect()
+
+"NERDCommenter needs a leader key mapped
+let mapleader=","
+
+"Vim Notes settings
+let g:notes_directories = ['/media/truecrypt1/Documents/Notes','~/Documents/Dropbox/Shared Notes']
