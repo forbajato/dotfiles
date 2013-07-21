@@ -1,4 +1,7 @@
-
+"Add Pathogen
+"They tell me it has to be before the filetype plugins
+call pathogen#infect()
+"
 "Have command line completion <Tab> (for filenames, Help topics, option names)
 "first list the available options and complete the longest possible part
 "then have further <tab>s cycle through the possibilities
@@ -59,6 +62,8 @@ map <f3> :w\!python %<cr>
 "map <F7> :w<CR> :!aspell -x -d american %<CR><CR>:e<CR><CR>
 "map <F8> :set filetype=vo_base<CR>
 "map <F9> :set filetype=potwiki<CR>
+"
+
 filetype plugin indent on
 set splitbelow
 "let potwiki_home="/mnt/vault/Documents/Wiki/HomePage"
@@ -100,11 +105,9 @@ map P :TlistToggle<CR>
 "let g:miniBufExplMapCTabSwitchBufs = 1
 "let g:miniBufExplModSelTarget = 1
 
-"Add Pathogen
-call pathogen#infect()
 
 "NERDCommenter needs a leader key mapped
 let mapleader=","
 
 "Vim Notes settings
-let g:notes_directories = ['/media/truecrypt1/Documents/Notes','~/Documents/Dropbox/Shared Notes']
+let g:notes_directories = ['~/Documents/Dropbox/Shared Notes','/media/truecrypt1/Documents/Notes']

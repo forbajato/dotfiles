@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+  <head>
+    <title>forbajato</title>
+    <dateCreated>Sun, 21 Jul 2013 10:34:42 +0000</dateCreated>
+  </head>
+  <body>
+    <outline text="Each Wednesday we talk about Free Libre and Open Source Software with the
+people who are writing it. Part of the TWiT Netcast Network." title="FLOSS Weekly" type="rss" xmlUrl="http://leo.am/podcasts/floss"/>
+    <outline text="Learning about Python" title="Python411" type="rss" xmlUrl="http://www.awaretek.com/python/index.xml"/>
+    <outline text="Each Wednesday we talk about Free Libre and Open Source Software with the
+people who are writing it. Part of the TWiT Netcast Network." title="FLOSS Weekly" type="rss" xmlUrl="http://leo.am/podcasts/floss"/>
+    <outline text="The Naked Scientists flagship science show, includes the latest science news,
+interviews with top scientists, hands-on science experiments and answers to
+your science questions." title="\- The Naked Scientists Podcast - Stripping Down Science" type="rss" xmlUrl="http://www.thenakedscientists.com/naked_scientists_podcast.xml"/>
+    <outline text="Rubyist.where(:rogue =&gt; true).limit(6).all.talk(:about =&gt;
+Topics.where(:awesome =&gt; true))" title="Ruby Rogues" type="rss" xmlUrl="http://feeds.feedburner.com/RubyRogues"/>
+    <outline text="In this show, aimed at making desktop Linux approachable and understandable to
+the average computer enthusiast, a panel of Linux experts and Linux newbies
+discuss the the joys and pitfalls of Everyday Linux." title="Everyday Linux" type="rss" xmlUrl="http://elementopie.com/feeds/everydaylinux/feed.xml"/>
+    <outline text="The #1 source for Linux" title="TuxRadar Linux Podcast (mp3)" type="rss" xmlUrl="http://www.tuxradar.com/files/podcast/podcast_mp3.rss"/>
+    <outline text="Ogg Atom Feed" title="GNU World Order" type="rss" xmlUrl="http://gnuworldorder.info/ogg.atom.xml"/>
+    <outline text="The latest articles from Freakonomics Radio" title="Freakonomics Radio" type="rss" xmlUrl="http://feeds.feedburner.com/freakonomicsradio"/>
+    <outline text="The GIMP is a image manipulation program. It is free (as in speech and in
+beer), it is open source and it runs on Linux (and other Unixes), Windows and
+MacOS. It can do nearly all the stuff you can do with Adobe® Photoshop® and
+more than a lot of other programs. I'll show you in this screencast how to use
+it for postprocessing digital camera images. There will be a new episode each
+thursday (european) night." title="Meet the GIMP" type="rss" xmlUrl="http://feeds.feedburner.com/meetthegimp"/>
+    <outline text="" title="" type="rss" xmlUrl="http://linuxbasix.com/?feed=podcast"/>
+    <outline text="CBC Radio's Quirks &amp; Quarks covers the quirks of the expanding universe to the
+quarks within a single atom... and everything in between." title="Quirks and Quarks Segmented Show from CBC Radio" type="rss" xmlUrl="http://www.cbc.ca/podcasting/includes/quirks.xml"/>
+    <outline text="Loving Linux" title="Linuxbasix ogg feed" type="rss" xmlUrl="http://feeds.feedburner.com/linuxbasix/ogging"/>
+    <outline text="NPR's weekly current events quiz. Have a laugh and test your news knowledge
+while figuring out what's real and what we've made up." title="NPR Programs: Wait Wait... Don't Tell Me! Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=35"/>
+    <outline text="&quot;Talk Geek To Me&quot; News, the ogg feed." title="TGTM News Ogg feed." type="rss" xmlUrl="http://www.talkgeektome.us/ogg.xml"/>
+    <outline text="Sourcetunk will try to demystify the beautiful beast that is Open Source and
+show the listeners the more practical examples of Open Source and Free
+Software. It will discuss software for Linux, BSD, MacOSX and Microsoft
+Windows systems" title="SourceTrunk" type="rss" xmlUrl="http://feeds.feedburner.com/sourcetrunk_ogg"/>
+    <outline text="Syndicated to radio stations across America, Motley Fool Money is an
+irreverent, fast-paced look at the world of business and investing. Each
+weekly episode features a roundtable discussion breaking down the biggest
+headlines from Wall Street, interviews with business leaders and authors, and
+an inside look at the stocks on our radar." title="Motley Fool Money" type="rss" xmlUrl="http://feeds.feedburner.com/MotleyFoolMoney"/>
+    <outline text="A regularly published podcast by a self-described hacker, curmudgeon and
+hacktivist about the practice and profession of programming drawing on over a
+decade of professional experience and a lifetime spent hacking, the
+intersection of politics and society with technology and anything else clever,
+elegant or funny that catches my mind as a die hard technology geek." title="The Command Line Podcast" type="rss" xmlUrl="http://feeds.thecommandline.net/cmdln"/>
+    <outline text="Ubuntu Linux Podcast from the Ubuntu UK LoCo team" title="Ubuntu Podcast » ogg" type="rss" xmlUrl="http://feeds.feedburner.com/UbuntuUkPodcastOgg-high?format=xml"/>
+    <outline text="Going Linux is a podcast for computer users who just want to use Linux to get
+things done. Whether you are new to Linux, moving from Windows to Linux, or
+thinking about upgrading to Linux, this podcast will provide you with
+practical, day-to-day advice on how to use Linux and Linux applications." title="Going Linux" type="rss" xmlUrl="http://www.goinglinux.com/oggpodcast.xml"/>
+    <outline text="Hacker Public Radio is an podcast that releases shows every weekday Monday
+through Friday. Our shows are produced by the community (you) and can be on
+any topic that are of interest to hackers and hobbyists." title="Hacker Public Radio" type="rss" xmlUrl="http://www.hackerpublicradio.org/hpr_ogg_rss.php"/>
+    <outline text="Hacker Public Radio is an podcast that releases shows every weekday Monday
+through Friday. Our shows are produced by the community (you) and can be on
+any topic that are of interest to hackers and hobbyists." title="Hacker Public Radio" type="rss" xmlUrl="http://www.hackerpublicradio.org/hpr_rss.php"/>
+    <outline text="Skeptoid is a weekly science podcast dedicated to furthering knowledge by
+blasting away the widespread pseudosciences that infect popular culture, and
+replacing them with way cooler reality. Each weekly episode focuses on a
+single phenomenon — an urban legend, a paranormal claim, alternative therapy,
+or something just plain stupid — that you've heard of, and that you probably
+believe in. Skeptoid attempts to expose the folly of belief in non-evidence
+based phenomena, and more importantly, explains the factual scientific
+reality. From the sublime to the startling, no topic is sacred, politically
+incorrect though that may be." title="Skeptoid" type="rss" xmlUrl="http://skeptoid.com/podcast.xml"/>
+    <outline text="Linux enthusiasts talk top news stories, current trends and any other subject
+regarding Linux and Open Source!" title="The Linux Action Show! OGG" type="rss" xmlUrl="http://feeds.feedburner.com/thelinuxactionshowogg"/>
+  </body>
+</opml>
