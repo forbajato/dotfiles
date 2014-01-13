@@ -13,6 +13,9 @@ MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH
 INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 PATH=/home/tom/bin:$PATH; export PATH
 
+#Set up git prompt
+source $HOME/programming/git-repos/zsh-git-prompt/zshrc.sh
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
@@ -23,7 +26,7 @@ PS1='%B%n@%m$%b '
 # http://www.ibm.com/developerworks/linux/library/l-z.html?dwzone=linux
 setopt AUTO_LIST AUTO_MENU
 setopt AUTO_CD
-RPROMPT='%/'
+RPROMPT='%/$(git_super_status)'
 #
 #Aliases
 alias ls='ls --color=auto'
@@ -66,13 +69,13 @@ bindkey '^R' history-incremental-search-backward
 
 #Functions
 #Check for current repos
-hgrepos () {
-	ssh root@192.168.0.$1 ls -al /var/lib/mercurial-server/repos/$2
-}
+#hgrepos () {
+	#ssh root@192.168.0.$1 ls -al /var/lib/mercurial-server/repos/$2
+#}
 
-vidsearch () {
-	less /home/tom/multimedia/Video/VideoIssues | grep $1
-}
+#vidsearch () {
+	#less /home/tom/multimedia/Video/VideoIssues | grep $1
+#}
 
 #Start up the Galaxy box with ntfs support
 #lb () {
@@ -137,6 +140,12 @@ waitingFor () {
 	task ls tags.contains:waitingFor
 }
 
+#Pending for project
+#Look for non-complete tasks for a given project
+projnc () {
+	task all project:$1 | grep "^[0-9, ][0-9]"
+}
+
 #Mount Pogo myBook drive with sshfs to network/myBook
 pogoMyBook () {
 	sshfs tom@192.168.0.$1:/media/myBook /home/tom/network/myBook
@@ -180,3 +189,5 @@ zebrathreads () {
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/programming/python/django
 source /usr/local/bin/virtualenvwrapper.sh
+
+
