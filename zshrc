@@ -57,6 +57,10 @@ fpath=($fpath /usr/local/share/doc/task/scripts/zsh/)
 autoload -Uz compinit
 compinit
 
+#To start screen locker for i3 (see ArchWiki article on i3 here: https://wiki.archlinux.org/index.php/I3#Volume_manager
+#This only works on systemd events and needs xss-lock installed - maybe when I move to Arch!
+#xss-lock -- i3lock -i /home/tom/multimedia/photos/wallpaper/battle.of.earth.and.sky-X2.jpg &
+
 # be verbose, i.e. show descriptions
 zstyle ':completion:*' verbose yes
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'

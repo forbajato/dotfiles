@@ -111,3 +111,14 @@ let mapleader=","
 
 "Vim Notes settings
 let g:notes_directories = ['~/Documents/Dropbox/Shared Notes','/media/truecrypt1/Documents/Notes']
+
+
+"Below from an article
+"(http://xpressrazor.wordpress.com/2014/03/10/few-vim-tricks/) but it doesn't
+"seem to work correctly so is commented out.
+"" Fold
+"" v(visual) zf = create fold, zo = open fold, zc=close zd = delete
+"augroup vimrc
+	"au BufReadPre * setlocal foldmethod=indent
+	"au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
+"augroup END
