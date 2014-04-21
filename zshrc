@@ -186,6 +186,14 @@ zebraconsults () {
 zebrathreads () {
 	grep ^Subject ./* | grep $1 | less
 }
+
+gl () {
+	git log --pretty="%ad : %s" --date=short
+}
+
+medtravel () {
+	find /media/truecrypt1/Documents/medicalRecords/ -type f -ctime -$1 | grep $2 | grep pdf | $3
+}
 	
 
 #Set up virtualenv to work with Django development
