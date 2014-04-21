@@ -127,7 +127,7 @@ let g:notes_directories = ['~/Documents/Dropbox/Shared Notes','/media/truecrypt1
 " Add support for Markdown files in Tagbar
 let g:tagbar_type_markdown = {
     \ 'ctagstype': 'markdown',
-    \ 'ctagsbin': '/home/tom/.vim/bundle/markdown2ctags.py',
+    \ 'ctagsbin': '/home/tom/.vim/bundle/markdown2ctags/markdown2ctags.py',
     \ 'ctagsargs': '-f - --sort=yes',
     \ 'kinds' : [
         \ 's:sections',
