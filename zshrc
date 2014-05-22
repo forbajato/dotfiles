@@ -37,6 +37,7 @@ alias -s pdf=evince
 alias -s html=w3m
 alias -g xterm='xterm -r'
 alias -g reallyLongCommandForTask='task list'
+alias -g myproj='task project:aaa all'
 #alias -g hgreposTom='ssh root@192.168.0.103 ls -al /var/lib/mercurial-server/repos/tom'
 #alias -g hgreposRebekah='ssh root@192.168.0.103 ls -al /var/lib/mercurial-server/repos/rebekah'
 
@@ -150,6 +151,11 @@ projnc () {
 	task all project:$1 | grep "^[0-9, ][0-9]"
 }
 
+#Look at task and its annotations only
+annotations () {
+	task $1 all
+}
+
 #Mount Pogo myBook drive with sshfs to network/myBook
 pogoMyBook () {
 	sshfs tom@192.168.0.$1:/media/myBook /home/tom/network/myBook
@@ -192,7 +198,7 @@ gl () {
 }
 
 medtravel () {
-	find /media/truecrypt1/Documents/medicalRecords/ -type f -ctime -$1 | grep $2 | grep pdf | $3
+	find /media/truecrypt1/Documents/medicalRecords/ -type f -ctime -`date +%j` | grep $1 | grep pdf | $2
 }
 	
 
