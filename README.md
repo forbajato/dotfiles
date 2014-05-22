@@ -7,6 +7,14 @@ git clone git://github.com/forbajato/dotfiles.git
 ~~~~
 
 ##Getting the vim plugins
+To get the vim plugin covered with submodule, in the root of the repo (for me that is the dotfiles directory):
+
+~~~~
+git submodule add <url for the git repo you are trying to add, like the address for a repo you are cloning> vim/bundle/<name of the new plugin>
+git add .
+git commit -am "Added the new plugin <plugin name>"
+~~~~
+
 I came to the pathogen party late so only some of my vim plugins are in bundles - need to clean this up sometime in the future.  To update the bundles:
 
 ~~~~
