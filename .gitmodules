@@ -25,3 +25,6 @@
 [submodule "vim/bundle/vim-lawrencium"]
 	path = vim/bundle/vim-lawrencium
 	url = git@github.com:ludovicchabant/vim-lawrencium.git
+[submodule "vim/bundle/ultisnips"]
+	path = vim/bundle/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
