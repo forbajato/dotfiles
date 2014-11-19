@@ -8,9 +8,9 @@ bindkey -v
 zstyle :compinstall filename '/home/tom/.zshrc'
 
 #Modify PATH to allow for use of LaTeX
-PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH
-MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH
-INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH
+PATH=/usr/local/texlive/2014/bin/x86_64-linux:$PATH; export PATH
+MANPATH=/usr/local/texlive/2014/texmf-dist/doc/man:$MANPATH; export MANPATH
+INFOPATH=/usr/local/texlive/2014/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 PATH=/home/tom/bin:$PATH; export PATH
 
 #Set up git prompt
@@ -36,22 +36,23 @@ alias -s tex=vim
 alias -s pdf=evince
 alias -s html=w3m
 alias -g xterm='xterm -r'
-alias -g reallyLongCommandForTask='task list'
 alias -g myproj='task project:aaa all'
 #alias -g hgreposTom='ssh root@192.168.0.103 ls -al /var/lib/mercurial-server/repos/tom'
 #alias -g hgreposRebekah='ssh root@192.168.0.103 ls -al /var/lib/mercurial-server/repos/rebekah'
 
 #Shortcuts for directories
 hash -d media=/home/tom/multimedia
-hash -d passMedia=/media/passport/multimedia
-hash -d video=/media/passport/multimedia/video/backMeUp
-hash -d comics=/home/tom/network/myBook/multimedia/books/Comics
-hash -d ctt=/home/tom/programming/python/cttoverview
-hash -d install=/home/tom/programming/python/installscript
-hash -d viz=/home/tom/programming/processing/visualizing
-hash -d cttOverview=/home/tom/programming/python/projects/cttOverviewWorking
-hash -d cttOverviewRepo=/home/tom/network/elements01/programming/python/cttOverviewWorking
-hash -d clusterdata=/home/tom/programming/python/projects/clusterdata
+#hash -d passMedia=/media/passport/multimedia
+#hash -d video=/media/passport/multimedia/video/backMeUp
+#hash -d comics=/home/tom/network/myBook/multimedia/books/Comics
+#hash -d ctt=/home/tom/programming/python/cttoverview
+#hash -d install=/home/tom/programming/python/installscript
+#hash -d viz=/home/tom/programming/processing/visualizing
+#hash -d cttOverview=/home/tom/programming/python/projects/cttOverviewWorking
+#hash -d cttOverviewRepo=/home/tom/network/elements01/programming/python/cttOverviewWorking
+#hash -d clusterdata=/home/tom/programming/python/projects/clusterdata
+hash -d thp=/home/tom/luks/one/Documents/twohandedplow
+hash -d prog=/home/tom/programming
 
 #Load completion stuff for Taskwarrior
 fpath=($fpath /usr/local/share/doc/task/scripts/zsh/)

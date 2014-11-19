@@ -110,7 +110,8 @@ map P :TlistToggle<CR>
 let mapleader=","
 
 "Vim Notes settings
-let g:notes_directories = ['~/Documents/Dropbox/Shared Notes','/media/truecrypt1/Documents/Notes']
+let g:notes_directories = ['/home/tom/luks/one/Documents/Notes','~/Documents/Dropbox/Shared Notes']
+"Removed: '/media/truecrypt1/Documents/Notes' 
 
 
 "Below from an article
@@ -139,3 +140,42 @@ let g:tagbar_type_markdown = {
     \ },
     \ 'sort': 0,
 \ }
+
+" Add UltiSnips mappings
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
+
+" This will add relative numbering as default, makes jumping around easier
+" (think about jumping down to a particular line, relative number will tell
+" you how many lines down that is).
+"  These changes are brought to you (with some modification to account for vim
+"  7.4 hybrid mode changes) by http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
+"  Main change for 7.4 is you need to specify to leave relativenumber or
+"  number mode before changing to another mode.  If you don't do this you will
+"  get hybrid mode (relative numbers for everything but the current line)
+
+function! NumberToggle()
+	if (&relativenumber == 1)
+		set norelativenumber
+		set number
+	else
+		set nonumber
+		set relativenumber
+	endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
+
+"This doesn't seem to work in terminator at least.  Apparently, when using a
+"terminal VIM has no way of knowing if it lost focus, you have to use Gvim for
+"this to work.
+au FocusLost * :set norelativenumber number
+au FocusGained * :set nonumber relativenumber
+
+autocmd InsertEnter * :set norelativenumber number
+autocmd InsertLeave * :set nonumber relativenumber 
+
+"Gotta add this or I will start with no numbering
+set relativenumber
