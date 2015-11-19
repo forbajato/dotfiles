@@ -6,6 +6,8 @@ call pathogen#infect()
 "first list the available options and complete the longest possible part
 "then have further <tab>s cycle through the possibilities
 set wildmode=list:longest,full 
+"Show syntax highlighting (2015-11-19)
+syntax enable
 "Show the mode and the commands input
 set showmode
 set showcmd
