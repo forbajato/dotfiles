@@ -206,7 +206,7 @@ medtravel () {
 #Set up virtualenv to work with Django development
 #Suggested at http://www.jeffknupp.com/blog/2012/10/24/starting-a-django-14-project-the-right-way/
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/programming/python/django
-source /usr/local/bin/virtualenvwrapper.sh
+#export PROJECT_HOME=$HOME/programming/python/django
+source /usr/bin/virtualenvwrapper.sh
 
 
