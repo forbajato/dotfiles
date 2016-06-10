@@ -11,7 +11,7 @@ zstyle :compinstall filename '/home/tom/.zshrc'
 PATH=/usr/local/texlive/2014/bin/x86_64-linux:$PATH; export PATH
 MANPATH=/usr/local/texlive/2014/texmf-dist/doc/man:$MANPATH; export MANPATH
 INFOPATH=/usr/local/texlive/2014/texmf-dist/doc/info:$INFOPATH; export INFOPATH
-PATH=/home/tom/bin:$PATH; export PATH
+PATH=/home/tom/bin:$PATH:/home/tom/.gem/ruby/2.3.0/bin; export PATH
 
 #Set up git prompt
 source $HOME/programming/git-repos/zsh-git-prompt/zshrc.sh
@@ -97,6 +97,16 @@ calc () {
 #Shows how much space each directory is taking up
 howbig () {
 	du -h $1 | grep '^[0-9.]*G' | sort -n
+}
+#
+#Shows directories ripe for backup on DVDs
+dvdhowbig () {
+	du -h $1 | grep '^[4-9.]*G' | sort -n
+}
+
+#Start up a new journal club vocabulary list
+startvocabularylist () {
+	cp /home/tom/bak/vocabtemplate/* .
 }
 
 #Checks for filesystem that is over 90% full
@@ -198,6 +208,14 @@ gl () {
 	git log --pretty="%ad : %s" --date=short
 }
 
+gc () {
+	git commit -am $1
+}
+
+gs () {
+	git status
+}
+
 medtravel () {
 	find /media/truecrypt1/Documents/medicalRecords/ -type f -ctime -`date +%j` | grep $1 | grep pdf | $2
 }
@@ -206,7 +224,9 @@ medtravel () {
 #Set up virtualenv to work with Django development
 #Suggested at http://www.jeffknupp.com/blog/2012/10/24/starting-a-django-14-project-the-right-way/
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/programming/python/django
-source /usr/local/bin/virtualenvwrapper.sh
+#Use the below if you are only working on a Django project, my more generic is better for multiple projects.
+#export PROJECT_HOME=$HOME/programming/python/django
+#export PROJECT_HOME=$HOME/programming/
+source /usr/bin/virtualenvwrapper.sh
 
 

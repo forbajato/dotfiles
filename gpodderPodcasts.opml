@@ -2,27 +2,32 @@
 <opml version="2.0">
     <head>
         <title>gPodder subscriptions</title>
-        <dateCreated>Mon, 15 Jul 2013 17:28:10 +0800</dateCreated>
+        <dateCreated>Wed, 26 Nov 2014 11:35:21 +0800</dateCreated>
     </head>
     <body>
-        <outline text="NPR's weekly current events quiz.  Have a laugh and test your news knowledge while figuring out what's real and what we've made up." title="NPR Programs: Wait Wait... Don't Tell Me! Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=35"/>
-        <outline text="Science with a Sense of Humour - The Naked Scientists Radio Show" title="- The Naked Scientists Podcast - Stripping Down Science" type="rss" xmlUrl="http://www.thenakedscientists.com/naked_scientists_podcast.xml"/>
-        <outline text="A regularly published podcast by a self-described hacker, curmudgeon and hacktivist about the practice and profession of programming drawing on over a decade of professional experience and a lifetime spent hacking, the intersection of politics and society with technology and anything else clever, elegant or funny that catches my mind as a die hard technology geek." title="The Command Line Podcast" type="rss" xmlUrl="http://feeds.thecommandline.net/cmdln"/>
-        <outline text="A guide to day-to-day life with Linux-based computing" title="Everyday Linux" type="rss" xmlUrl="http://elementopie.com/feeds/everydaylinux/feed.xml"/>
-        <outline text="Ogg Atom Feed" title="GNU World Order" type="rss" xmlUrl="http://gnuworldorder.info/ogg.atom.xml"/>
-        <outline text="Hacker Public Radio is an podcast that releases shows every weekday Monday through Friday. Our shows are produced by the community (you) and can be on any topic that are of interest to hackers and hobbyists." title="Hacker Public Radio" type="rss" xmlUrl="http://www.hackerpublicradio.org/hpr_rss.php"/>
-        <outline text="Learning about Python" title="Python411" type="rss" xmlUrl="http://www.awaretek.com/python/index.xml"/>
-        <outline text="CBC Radio's Quirks &amp; Quarks covers the quirks of the expanding universe to the quarks within a single atom... and everything in between." title="Quirks and Quarks Segmented Show from CBC Radio" type="rss" xmlUrl="http://www.cbc.ca/podcasting/includes/quirks.xml"/>
-        <outline text="A weekly look at the true facts behind urban legends and stories you've probably heard." title="Skeptoid" type="rss" xmlUrl="http://skeptoid.com/podcast.xml"/>
         <outline text="The #1 source for Linux" title="TuxRadar Linux Podcast (mp3)" type="rss" xmlUrl="http://www.tuxradar.com/files/podcast/podcast_mp3.rss"/>
-        <outline text="The latest articles from Freakonomics Radio" title="Freakonomics Radio" type="rss" xmlUrl="http://feeds.feedburner.com/freakonomicsradio"/>
-        <outline text="Linux enthusiasts talk top news stories, current trends and any other subject regarding Linux and Open Source!" title="The Linux Action Show! OGG" type="rss" xmlUrl="http://feeds.feedburner.com/thelinuxactionshowogg"/>
+        <outline text="Learning about Python" title="Python411" type="rss" xmlUrl="http://www.awaretek.com/python/index.xml"/>
+        <outline text="Ogg Atom Feed" title="GNU World Order" type="rss" xmlUrl="http://gnuworldorder.info/ogg.atom.xml"/>
         <outline text="Postprocessing digital photos with the GIMP - it's free and powerfull" title="Meet the GIMP" type="rss" xmlUrl="http://feeds.feedburner.com/meetthegimp"/>
-        <outline text="Motley Fool Money" title="Motley Fool Money" type="rss" xmlUrl="http://feeds.feedburner.com/MotleyFoolMoney"/>
-        <outline text="Sourcetunk will try to demystify the beautiful beast that is Open Source and show the listeners the more practical examples of Open Source and Free Software. It will discuss software for Linux, BSD, MacOSX and Microsoft Windows systems" title="SourceTrunk" type="rss" xmlUrl="http://feeds.feedburner.com/sourcetrunk_ogg"/>
-        <outline text="&quot;Talk Geek To Me&quot; News, the ogg feed." title="TGTM News Ogg feed." type="rss" xmlUrl="http://www.talkgeektome.us/ogg.xml"/>
-        <outline text="Each Wednesday we talk about Free Libre and Open Source Software with the people who are writing it. Part of the TWiT Netcast Network." title="FLOSS Weekly" type="rss" xmlUrl="http://leo.am/podcasts/floss"/>
-        <outline text="Ubuntu Linux Podcast from the Ubuntu UK LoCo team" title="Ubuntu Podcast » ogg" type="rss" xmlUrl="http://feeds.feedburner.com/UbuntuUkPodcastOgg-high?format=xml"/>
         <outline text="As we learn so will you" title="LinuxBasix" type="rss" xmlUrl="http://linuxbasix.com/?feed=podcast"/>
+        <outline text="CBC Radio's Quirks &amp;amp; Quarks covers the quirks of the expanding universe to the quarks within a single atom... and everything in between." title="Quirks and Quarks Segmented Show from CBC Radio" type="rss" xmlUrl="http://www.cbc.ca/podcasting/includes/quirks.xml"/>
+        <outline text="NPR's weekly current events quiz.  Have a laugh and test your news knowledge while figuring out what's real and what we've made up." title="NPR Programs: Wait Wait... Don't Tell Me! Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=344098539"/>
+        <outline text="&quot;Talk Geek To Me&quot; News, the ogg feed." title="TGTM News Ogg feed." type="rss" xmlUrl="http://www.talkgeektome.us/ogg.xml"/>
+        <outline text="Sourcetunk will try to demystify the beautiful beast that is Open Source and show the listeners the more practical examples of Open Source and Free Software. It will discuss software for Linux, BSD, MacOSX and Microsoft Windows systems" title="SourceTrunk" type="rss" xmlUrl="http://feeds.feedburner.com/sourcetrunk_ogg"/>
+        <outline text="Motley Fool Money" title="Motley Fool Money" type="rss" xmlUrl="http://feeds.feedburner.com/MotleyFoolMoney"/>
+        <outline text="A regularly published podcast by a self-described hacker, curmudgeon and hacktivist about the practice and profession of programming drawing on over a decade of professional experience and a lifetime spent hacking, the intersection of politics and society with technology and anything else clever, elegant or funny that catches my mind as a die hard technology geek." title="The Command Line Podcast" type="rss" xmlUrl="http://feeds.thecommandline.net/cmdln"/>
+        <outline text="In their books &quot;Freakonomics,&quot; &quot;SuperFreakonomics,&quot; and &quot;Think Like a Freak,&quot; Steven D. Levitt and Stephen J. Dubner  explore &quot;the hidden side of everything,&quot; telling stories about cheating schoolteachers and eating champions while teaching us all to thin" title="Freakonomics Radio" type="rss" xmlUrl="http://feeds.feedburner.com/freakonomicsradio"/>
+        <outline text="Hacker Public Radio is an podcast that releases shows every weekday Monday through Friday. Our shows are produced by the community (you) and can be on any topic that are of interest to hackers and hobbyists." title="Hacker Public Radio" type="rss" xmlUrl="http://www.hackerpublicradio.org/hpr_rss.php"/>
+        <outline text="A weekly look at the true facts behind urban legends and stories you've probably heard." title="Skeptoid" type="rss" xmlUrl="http://skeptoid.com/podcast.xml"/>
+        <outline text="Linux enthusiasts talk top news stories, current trends and any other subject regarding Linux and Open Source!" title="The Linux Action Show! OGG" type="rss" xmlUrl="http://feeds.feedburner.com/thelinuxactionshowogg"/>
+        <outline text="with Tony Bemus, Mat Enders, and Mary Tomich" title="Sunday Morning Linux Review - OGG Feed" type="rss" xmlUrl="http://feeds.feedburner.com/SundayMorningLinuxReview-OggFeed"/>
+        <outline text="" title="Bad Voltage » Ogg Vorbis" type="rss" xmlUrl="http://www.badvoltage.org/feed/ogg/"/>
+        <outline text="a small-batch artisanal podcast for irreverent pythonistas" title="From Python Import Podcast" type="rss" xmlUrl="http://feeds.feedburner.com/FromPythonImportPodcastogg"/>
+        <outline text="Downloadable messages from The Church at Brook Hills, Birmingham, Alabama, USA." title="Brook Hills: audio" type="rss" xmlUrl="http://feeds.feedburner.com/bhaudiopodcast"/>
+        <outline text="This feed contains every podcast the CGS guys produce.  This includes all spin-off shows. Comic Geek Speak is the best podcast about comic books for fans and new readers alike. Put together by a group of life-long comic geeks, it's 4-5 hours a week of comic book history, current comic news, and a general look at the industry. In addition to all the latest in comics talk, the show also features creator interviews, listener responses, contests, and trivia, lots of trivia. So listen in and experience all the joys of a Wednesday afternoon at the comic shop, from the comfort of your own headphones." title="Comic Geek Speak Podcast - The Best Comic Book Podcast" type="rss" xmlUrl="http://www.comicgeekspeak.com/cgs-main-rss.xml"/>
+        <outline text="An opinionated daily technology talk show." title="Tech Talk Today OGG" type="rss" xmlUrl="http://feedpress.me/t3ogg"/>
+        <outline text="Welcome to the Andy Stanley Leadership Podcast, a conversation designed to help leaders go further, faster.  Andy Stanley is a pastor, communicator, author, and the founder of North Point Ministries in Alpharetta, Georgia.
+
+For additional information, visit andystanley.com." title="Andy Stanley Leadership Podcast" type="rss" xmlUrl="http://feeds.feedburner.com/AndyStanleyLeadershipPodcast"/>
     </body>
 </opml>
